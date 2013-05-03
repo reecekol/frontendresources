@@ -21,6 +21,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+	
 }
 
 /*
@@ -297,4 +298,55 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+/* Custom */
+
+#container{
+  width:780px;
+  margin: 0 auto;
+}
+
+
+html{
+  background: #E0DBD0;
+}
+
+h1,h2,h3,h4,h5,h6{
+ color:#E22C29;
+}
+
+#logo{
+
+ text-align:center;
+ font-size:3em;
+ padding:40px;
+ color:#8C2C0C;
+ text-transform:uppercase;
+ text-shadow:2px 2px black;
+}
+
+#banner{
+position:absolute;
+top:0;
+right:0;
+}
+
+a{
+ text-decoration:none;
+ color:#815BO8;
+}
+
+footer{
+text-align:center;
+min-height:200px;
+background-color:#444444;
+color:red;
+padding-top:100px;
+}
+
+ul li {
+
+list-style:none;
 }
