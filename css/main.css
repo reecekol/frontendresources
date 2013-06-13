@@ -309,7 +309,7 @@ textarea {
 }
 
 
-html{
+body{
   background: #E0DBD0;
 }
 
@@ -340,11 +340,17 @@ a{
 
 footer{
 text-align:center;
-min-height:200px;
+height:200px;
 background-color:#444444;
+display:block;
 color:red;
 padding-top:100px;
 }
+
+html{
+background-color:#444444;
+}
+
 
 ul li {
 
